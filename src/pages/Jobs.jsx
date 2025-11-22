@@ -1,5 +1,5 @@
 function Jobs() {
-  return <div>Job</div>;
+  return <div>Jobs</div>;
 }
 
 export default Jobs;
