@@ -5,7 +5,7 @@ function AboutVenus() {
     <div className="flex flex-row bg-black h-[730px] mt-24 gap-40">
       <div className="ml-[118px] mt-32">
         <h2 className="font-machina text-[#0038FF] text-[64px]">About</h2>
-        <img src="/images/Frame.svg" alt="venus" />
+        <img src="images/Frame.svg" alt="venus" />
         <h3 className="mt-6 text-white font-machina text-2xl max-w-xs">
           Different types of innovative services are provided{" "}
           <span className="font-extrabold">here</span>.
@@ -19,7 +19,7 @@ function AboutVenus() {
         </Button>
       </div>
       <div className="mt-32 mr-32 w-[508px] h-[508px] flex-shrink-0">
-        <img src="/images/humangif.gif" alt="huamngif" />
+        <img src="images/humangif.gif" alt="huamngif" />
       </div>
     </div>
   );

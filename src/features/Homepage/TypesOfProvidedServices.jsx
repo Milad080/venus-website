@@ -13,7 +13,7 @@ function TypesOfProvidedServices() {
           Quick Transfers
         </h3>
         <img
-          src="/images/Vector.svg"
+          src="images/Vector.svg"
           alt="vector"
           className="w-[133px] h-[133px] absolute top-[70px] left-[70px] z-10"
         />
