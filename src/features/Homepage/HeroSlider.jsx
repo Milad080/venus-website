@@ -24,7 +24,7 @@ export default function Home() {
               </h1>
 
               <img
-                src="/images/homepagegif.gif"
+                src="/images/homePageGif.gif"
                 alt="gif"
                 className="w-[366px] h-[366px]"
               />
