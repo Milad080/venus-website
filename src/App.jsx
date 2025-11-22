@@ -8,8 +8,11 @@ import PageNotFound from "./pages/PageNotFound";
 import Jobs from "./pages/Jobs";
 
 function App() {
+  const isGitHubPages = window.location.hostname.includes("github.io");
+  const basename = isGitHubPages ? "/venus-website" : "/";
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route element={<AppLayout />}>
           <Route index element={<Home />} />
