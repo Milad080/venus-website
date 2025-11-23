@@ -3,13 +3,13 @@ import MainNav from "./MainNav";
 
 function Sidebar() {
   return (
-    <div className="flex mr-2.5 font-machina">
+    <aside className="flex mr-2.5 font-machina">
       <div className="w-2.5 bg-[#0038FF]"></div>
-      <aside className="w-[223px]">
+      <div className="w-[223px]">
         <Logo />
         <MainNav />
-      </aside>
-    </div>
+      </div>
+    </aside>
   );
 }
 

@@ -4,9 +4,16 @@ import { BsCheck } from "react-icons/bs";
 function TypesOfProvidedServices() {
   return (
     <section className="flex flex-row mt-16 ml-20 gap-24">
-      {/* <div className="mt-16 mb-10 ml-10 relative w-[350px] h-[250px] bg-white  shadow-[0_4px_111px_rgba(0,0,0,0.1)]">
-          <div className="absolute bottom-0 right-0 w-12 h-12 bg-gradient-to-br bg-[#f5f5f5] rotate-45 translate-x-1/2 translate-y-1/2 shadow-[0_4px_111px_rgba(0,0,0,0.1)] "></div>
-        </div> */}
+      {/* <div className="mt-6 mb-32 relative w-[350px] h-[250px] bg-white border-[#cfcfcf] drop-shadow-[0px_0px_52px_rgba(0,0,0,0.09)]">
+        <div
+          style={{
+            clipPath: "polygon(0 0, 50% 50%,0 100%)",
+            background:
+              "linear-gradient(135deg, #f6f6f6 0%, #f9f9f9 100%, #fff 100%)",
+          }}
+          className="absolute bottom-0 right-0 w-12 h-12 drop-shadow-[0px_0px_52px_rgba(0,0,0,0.09)] rotate-45 translate-x-1/2 translate-y-1/2"
+        ></div>
+      </div> */}
       <div className="flex flex-col relative">
         <img src="images/Rectangle-91.svg" alt="rectangle" className="z-30" />
         <h3 className="absolute top-[132px] left-32 font-grotesk font-bold z-40">
@@ -129,7 +136,6 @@ function TypesOfProvidedServices() {
           className="absolute top-[475px] left-[35px] z-10"
         />
       </div>
-
       <div className="flex flex-col mt-16">
         <h4 className="text-[#0038FF] font-bold font-grotesk text-[12px] uppercase">
           Why Choose Us
